@@ -1,0 +1,14 @@
+C:\Users\nikita\source\repos\GreenHouseSystem\GreenHouseSystem\bin\Debug\net8.0\GreenHouseSystem.exe
+C:\Users\nikita\source\repos\GreenHouseSystem\GreenHouseSystem\bin\Debug\net8.0\GreenHouseSystem.deps.json
+C:\Users\nikita\source\repos\GreenHouseSystem\GreenHouseSystem\bin\Debug\net8.0\GreenHouseSystem.runtimeconfig.json
+C:\Users\nikita\source\repos\GreenHouseSystem\GreenHouseSystem\bin\Debug\net8.0\GreenHouseSystem.dll
+C:\Users\nikita\source\repos\GreenHouseSystem\GreenHouseSystem\bin\Debug\net8.0\GreenHouseSystem.pdb
+C:\Users\nikita\source\repos\GreenHouseSystem\GreenHouseSystem\obj\Debug\net8.0\GreenHouseSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nikita\source\repos\GreenHouseSystem\GreenHouseSystem\obj\Debug\net8.0\GreenHouseSystem.AssemblyInfoInputs.cache
+C:\Users\nikita\source\repos\GreenHouseSystem\GreenHouseSystem\obj\Debug\net8.0\GreenHouseSystem.AssemblyInfo.cs
+C:\Users\nikita\source\repos\GreenHouseSystem\GreenHouseSystem\obj\Debug\net8.0\GreenHouseSystem.csproj.CoreCompileInputs.cache
+C:\Users\nikita\source\repos\GreenHouseSystem\GreenHouseSystem\obj\Debug\net8.0\GreenHouseSystem.dll
+C:\Users\nikita\source\repos\GreenHouseSystem\GreenHouseSystem\obj\Debug\net8.0\refint\GreenHouseSystem.dll
+C:\Users\nikita\source\repos\GreenHouseSystem\GreenHouseSystem\obj\Debug\net8.0\GreenHouseSystem.pdb
+C:\Users\nikita\source\repos\GreenHouseSystem\GreenHouseSystem\obj\Debug\net8.0\GreenHouseSystem.genruntimeconfig.cache
+C:\Users\nikita\source\repos\GreenHouseSystem\GreenHouseSystem\obj\Debug\net8.0\ref\GreenHouseSystem.dll
