@@ -8,7 +8,7 @@ public class SensorFabric<T>
 {
     public static ISensor<T> CreateSensor(string sensorType)
     {
-        if (typeof(T) == typeof(double) || typeof(T) == typeof(SoilQualitySensorValue))
+        if (typeof(T) == typeof(double) || typeof(T) == typeof(SoilQualitySensorValue)) // проверка на тип прежде чем создать датчик
         {
             switch (sensorType)
             {

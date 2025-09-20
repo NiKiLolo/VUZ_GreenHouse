@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-public interface ISensor<T>
+public interface ISensor<T> // Используешься шаблон так как некоторые датчики возвращаются разные типы данных
 {
     string sensorType { get; }
     T Read();

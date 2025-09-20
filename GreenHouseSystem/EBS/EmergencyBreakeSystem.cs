@@ -11,7 +11,7 @@ public class EmergencyBreakeSystemNotify : IAlertSubscribers
         Console.WriteLine("Система Аварийной Остановки: Активирована аварийная остановка");
     }
 }
-public interface IEBSSubscribers
+public interface IEBSSubscribers // Отдельная подписка для Интерфейса, так как САО и Интерфейс связаны
 {
     void EBSAlert(string message);
 }

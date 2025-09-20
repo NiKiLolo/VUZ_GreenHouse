@@ -12,8 +12,8 @@ ISensor<SoilQualitySensorValue> soilQualitySensor = SensorFabric<SoilQualitySens
 SoilQualitySensorValue value = new SoilQualitySensorValue();
 value = soilQualitySensor.Read();
 
-if(value.temp > 30)
+if(value.temp > 30) // Базовый тест для проверки работоспособности  подписок 
 {
     AlertPublisher.Notify($"Внимание. Критическое значение температуры почвы: Температура превышена на {value.temp-30} от критической");
-    EBSMessagePublisher.Notify($"Температура сейчас {value.temp} | Критическое значение {30}");
+    EBSMessagePublisher.Notify($"Температура сейчас {value.temp} | Критическое значение {30}"); // Оповещения в случае срабатывания САО
 }
