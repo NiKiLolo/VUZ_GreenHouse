@@ -4,9 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-
-public interface ISensor<T> // Используешься шаблон так как некоторые датчики возвращаются разные типы данных
+namespace GreenHouseSystem.Sensors
 {
-    string sensorType { get; }
-    T Read();
+    public interface ISensor<T> // Используешься шаблон так как некоторые датчики возвращаются разные типы данных
+    {
+        string sensorType { get; }
+        T Read();
+    }
 }

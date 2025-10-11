@@ -3,11 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-public class HumiditySesnor : ISensor<double>
+namespace GreenHouseSystem.Sensors
 {
-    public string sensorType => "HumiditySesnor";
-    public double Read()
+    public class HumiditySesnor : ISensor<double>
     {
-        return 25.4;
+        public string sensorType => "HumiditySesnor";
+        public double Read()
+        {
+            return 25.4;
+        }
     }
 }

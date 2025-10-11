@@ -4,12 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-
-public class TemperatureSesnor : ISensor<double>
+namespace GreenHouseSystem.Sensors
 {
-    public string sensorType => "TemperatureSesnor";
-    public double Read() 
-    { 
-        return 24.4; 
+    public class TemperatureSesnor : ISensor<double>
+    {
+        public string sensorType => "TemperatureSesnor";
+        public double Read()
+        {
+            return 24.4;
+        }
     }
+
 }
