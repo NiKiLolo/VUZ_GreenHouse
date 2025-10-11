@@ -6,11 +6,12 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using System;
 namespace GreenHouseSystem
 {
     public class Program
     {
-        public static void Main(string[] args)
+        public static async Task Main(string[] args)
         {
             Console.WriteLine("Starting..");
 
@@ -50,10 +51,10 @@ namespace GreenHouseSystem
                 return alertManager;
             });
             //
-            builder.Services.AddSingleton<DataProcessor>(); // DataProcessor должен быть один
+             // DataProcessor должен быть один
             // Устанавливаем стратегию по умолчанию для DataProcessor
             // Для этого используем фабрику для DataProcessor
-            builder.Services.AddSingleton(provider =>
+         /*   builder.Services.AddSingleton(provider =>
             {
                 var logger = provider.GetRequiredService<ILogger<DataProcessor>>();
                 var processor = new DataProcessor(logger);
@@ -61,18 +62,55 @@ namespace GreenHouseSystem
                 var defaultStrategy = provider.GetRequiredService<ThresholdCheckStrategy>();
                 processor.SetStrategy(defaultStrategy);
                 return processor;
+            });*/
+
+            builder.Services.AddSingleton<MainService>();
+            builder.Services.AddSingleton<MonitoringService>();
+
+            // 11. Обновляем регистрацию DataProcessor
+            builder.Services.AddSingleton<DataProcessor>();
+            builder.Services.AddSingleton(provider =>
+            {
+                var logger = provider.GetRequiredService<ILogger<DataProcessor>>();
+                return new DataProcessor(logger);
             });
 
+            //Регистррируем демо сценарий в билдере веб приложения
+            //
             //Регистррируем сервис в билдере веб приложения
-            builder.Services.AddHostedService<MonitoringService>();
-            
-
-            
+            //builder.Services.AddHostedService<MonitoringService>();
+            //Регистррируем консоль интерфейс в билдере веб приложения
+            //  
             // 5. Собираем и запускаем хост
+            builder.Services.AddHostedService<DemoScenarioService>();
+            builder.Services.AddHostedService<ConsoleInterfaceService>();
             var host = builder.Build();
-            //Тест в веб режиме вывод данных, позже на основе можно релизнуть интерфейс?(использовать html/css как доп задача неплохая идея)
-            //host.UseMiddleware<LegacyOpcDaSimulatorServiceStarter>();
-            host.Run();
+            
+            Console.CancelKeyPress += (sender, e) =>
+            {
+                e.Cancel = true;
+                host.StopAsync().GetAwaiter().GetResult();
+            };
+            try
+            {
+                var mainService = host.Services.GetRequiredService<MainService>();
+                await mainService.StartAsync(CancellationToken.None);
+                //Тест в веб режиме вывод данных, позже на основе можно релизнуть интерфейс?(использовать html/css как доп задача неплохая идея)
+                //host.UseMiddleware<LegacyOpcDaSimulatorServiceStarter>();
+                await host.RunAsync();
+            }
+            catch (OperationCanceledException)
+            {
+                // Корректное завершение
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Неожиданная ошибка: {ex.Message}");
+            }
+            finally
+            {
+                host.Dispose();
+            }
 
         }
     }

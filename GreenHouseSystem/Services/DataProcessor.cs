@@ -24,6 +24,10 @@ namespace GreenHouseSystem.Services
             _logger.LogInformation("Смена стратегии обработки данных на {StrategyName}", strategy.GetType().Name);_strategy = strategy;
         }
         // Главный метод обработки
+        public string GetCurrentStrategyName()
+        {
+            return _strategy?.GetType().Name ?? "Не выбрана";
+        }
         public async Task<bool> ProcessDataAsync(double data)
         {
             if (_strategy == null)
