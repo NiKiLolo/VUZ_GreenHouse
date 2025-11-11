@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\nikita\\source\\repos\\GreenHouseSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{34639860-617A-4DC7-95F6-EF2B4FD72090}|GreenHouseSystem\\GreenHouseSystem.csproj|c:\\users\\nikita\\source\\repos\\greenhousesystem\\greenhousesystem\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34639860-617A-4DC7-95F6-EF2B4FD72090}|GreenHouseSystem\\GreenHouseSystem.csproj|solutionrelative:greenhousesystem\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{34639860-617A-4DC7-95F6-EF2B4FD72090}|GreenHouseSystem\\GreenHouseSystem.csproj|c:\\users\\nikita\\source\\repos\\greenhousesystem\\greenhousesystem\\services\\opcuadataprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34639860-617A-4DC7-95F6-EF2B4FD72090}|GreenHouseSystem\\GreenHouseSystem.csproj|solutionrelative:greenhousesystem\\services\\opcuadataprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34639860-617A-4DC7-95F6-EF2B4FD72090}|GreenHouseSystem\\GreenHouseSystem.csproj|c:\\users\\nikita\\source\\repos\\greenhousesystem\\greenhousesystem\\services\\consoleinterfaceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34639860-617A-4DC7-95F6-EF2B4FD72090}|GreenHouseSystem\\GreenHouseSystem.csproj|solutionrelative:greenhousesystem\\services\\consoleinterfaceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34639860-617A-4DC7-95F6-EF2B4FD72090}|GreenHouseSystem\\GreenHouseSystem.csproj|c:\\users\\nikita\\source\\repos\\greenhousesystem\\greenhousesystem\\services\\demoscenarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34639860-617A-4DC7-95F6-EF2B4FD72090}|GreenHouseSystem\\GreenHouseSystem.csproj|solutionrelative:greenhousesystem\\services\\demoscenarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34639860-617A-4DC7-95F6-EF2B4FD72090}|GreenHouseSystem\\GreenHouseSystem.csproj|c:\\users\\nikita\\source\\repos\\greenhousesystem\\greenhousesystem\\services\\mainservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34639860-617A-4DC7-95F6-EF2B4FD72090}|GreenHouseSystem\\GreenHouseSystem.csproj|solutionrelative:greenhousesystem\\services\\mainservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{34639860-617A-4DC7-95F6-EF2B4FD72090}|GreenHouseSystem\\GreenHouseSystem.csproj|c:\\users\\nikita\\source\\repos\\greenhousesystem\\greenhousesystem\\services\\settings_class\\opcuasettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34639860-617A-4DC7-95F6-EF2B4FD72090}|GreenHouseSystem\\GreenHouseSystem.csproj|solutionrelative:greenhousesystem\\services\\settings_class\\opcuasettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{34639860-617A-4DC7-95F6-EF2B4FD72090}|GreenHouseSystem\\GreenHouseSystem.csproj|c:\\users\\nikita\\source\\repos\\greenhousesystem\\greenhousesystem\\services\\dataprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,16 +19,48 @@
       "RelativeMoniker": "D:0:0:{34639860-617A-4DC7-95F6-EF2B4FD72090}|GreenHouseSystem\\GreenHouseSystem.csproj|solutionrelative:greenhousesystem\\services\\alertmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34639860-617A-4DC7-95F6-EF2B4FD72090}|GreenHouseSystem\\GreenHouseSystem.csproj|c:\\users\\nikita\\source\\repos\\greenhousesystem\\greenhousesystem\\services\\settings_class\\opcuasettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34639860-617A-4DC7-95F6-EF2B4FD72090}|GreenHouseSystem\\GreenHouseSystem.csproj|solutionrelative:greenhousesystem\\services\\settings_class\\opcuasettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{34639860-617A-4DC7-95F6-EF2B4FD72090}|GreenHouseSystem\\GreenHouseSystem.csproj|c:\\users\\nikita\\source\\repos\\greenhousesystem\\greenhousesystem\\services\\consoleinterfaceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34639860-617A-4DC7-95F6-EF2B4FD72090}|GreenHouseSystem\\GreenHouseSystem.csproj|solutionrelative:greenhousesystem\\services\\consoleinterfaceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{34639860-617A-4DC7-95F6-EF2B4FD72090}|GreenHouseSystem\\GreenHouseSystem.csproj|c:\\users\\nikita\\source\\repos\\greenhousesystem\\greenhousesystem\\services\\thresholdcheckstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{34639860-617A-4DC7-95F6-EF2B4FD72090}|GreenHouseSystem\\GreenHouseSystem.csproj|solutionrelative:greenhousesystem\\services\\thresholdcheckstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34639860-617A-4DC7-95F6-EF2B4FD72090}|GreenHouseSystem\\GreenHouseSystem.csproj|c:\\users\\nikita\\source\\repos\\greenhousesystem\\greenhousesystem\\services\\opcuadataprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34639860-617A-4DC7-95F6-EF2B4FD72090}|GreenHouseSystem\\GreenHouseSystem.csproj|solutionrelative:greenhousesystem\\services\\opcuadataprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{34639860-617A-4DC7-95F6-EF2B4FD72090}|GreenHouseSystem\\GreenHouseSystem.csproj|c:\\users\\nikita\\source\\repos\\greenhousesystem\\greenhousesystem\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34639860-617A-4DC7-95F6-EF2B4FD72090}|GreenHouseSystem\\GreenHouseSystem.csproj|solutionrelative:greenhousesystem\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34639860-617A-4DC7-95F6-EF2B4FD72090}|GreenHouseSystem\\GreenHouseSystem.csproj|c:\\users\\nikita\\source\\repos\\greenhousesystem\\greenhousesystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{34639860-617A-4DC7-95F6-EF2B4FD72090}|GreenHouseSystem\\GreenHouseSystem.csproj|solutionrelative:greenhousesystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34639860-617A-4DC7-95F6-EF2B4FD72090}|GreenHouseSystem\\GreenHouseSystem.csproj|c:\\users\\nikita\\source\\repos\\greenhousesystem\\greenhousesystem\\services\\interfacealertnotifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34639860-617A-4DC7-95F6-EF2B4FD72090}|GreenHouseSystem\\GreenHouseSystem.csproj|solutionrelative:greenhousesystem\\services\\interfacealertnotifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34639860-617A-4DC7-95F6-EF2B4FD72090}|GreenHouseSystem\\GreenHouseSystem.csproj|c:\\users\\nikita\\source\\repos\\greenhousesystem\\greenhousesystem\\services\\demoscenarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34639860-617A-4DC7-95F6-EF2B4FD72090}|GreenHouseSystem\\GreenHouseSystem.csproj|solutionrelative:greenhousesystem\\services\\demoscenarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34639860-617A-4DC7-95F6-EF2B4FD72090}|GreenHouseSystem\\GreenHouseSystem.csproj|c:\\users\\nikita\\source\\repos\\greenhousesystem\\greenhousesystem\\services\\legacyopcdasimulatorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34639860-617A-4DC7-95F6-EF2B4FD72090}|GreenHouseSystem\\GreenHouseSystem.csproj|solutionrelative:greenhousesystem\\services\\legacyopcdasimulatorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34639860-617A-4DC7-95F6-EF2B4FD72090}|GreenHouseSystem\\GreenHouseSystem.csproj|c:\\users\\nikita\\source\\repos\\greenhousesystem\\greenhousesystem\\services\\legacyopcdasimulatorservicestartertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34639860-617A-4DC7-95F6-EF2B4FD72090}|GreenHouseSystem\\GreenHouseSystem.csproj|solutionrelative:greenhousesystem\\services\\legacyopcdasimulatorservicestartertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34639860-617A-4DC7-95F6-EF2B4FD72090}|GreenHouseSystem\\GreenHouseSystem.csproj|c:\\users\\nikita\\source\\repos\\greenhousesystem\\greenhousesystem\\services\\loggeralertnotifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34639860-617A-4DC7-95F6-EF2B4FD72090}|GreenHouseSystem\\GreenHouseSystem.csproj|solutionrelative:greenhousesystem\\services\\loggeralertnotifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34639860-617A-4DC7-95F6-EF2B4FD72090}|GreenHouseSystem\\GreenHouseSystem.csproj|c:\\users\\nikita\\source\\repos\\greenhousesystem\\greenhousesystem\\services\\mainservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34639860-617A-4DC7-95F6-EF2B4FD72090}|GreenHouseSystem\\GreenHouseSystem.csproj|solutionrelative:greenhousesystem\\services\\mainservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34639860-617A-4DC7-95F6-EF2B4FD72090}|GreenHouseSystem\\GreenHouseSystem.csproj|c:\\users\\nikita\\source\\repos\\greenhousesystem\\greenhousesystem\\services\\monitoringservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34639860-617A-4DC7-95F6-EF2B4FD72090}|GreenHouseSystem\\GreenHouseSystem.csproj|solutionrelative:greenhousesystem\\services\\monitoringservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{34639860-617A-4DC7-95F6-EF2B4FD72090}|GreenHouseSystem\\GreenHouseSystem.csproj|c:\\users\\nikita\\source\\repos\\greenhousesystem\\greenhousesystem\\services\\suddenjumpdetectionstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -45,18 +69,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{34639860-617A-4DC7-95F6-EF2B4FD72090}|GreenHouseSystem\\GreenHouseSystem.csproj|c:\\users\\nikita\\source\\repos\\greenhousesystem\\greenhousesystem\\services\\settings_class\\monitoringsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{34639860-617A-4DC7-95F6-EF2B4FD72090}|GreenHouseSystem\\GreenHouseSystem.csproj|solutionrelative:greenhousesystem\\services\\settings_class\\monitoringsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34639860-617A-4DC7-95F6-EF2B4FD72090}|GreenHouseSystem\\GreenHouseSystem.csproj|c:\\users\\nikita\\source\\repos\\greenhousesystem\\greenhousesystem\\services\\monitoringservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34639860-617A-4DC7-95F6-EF2B4FD72090}|GreenHouseSystem\\GreenHouseSystem.csproj|solutionrelative:greenhousesystem\\services\\monitoringservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34639860-617A-4DC7-95F6-EF2B4FD72090}|GreenHouseSystem\\GreenHouseSystem.csproj|c:\\users\\nikita\\source\\repos\\greenhousesystem\\greenhousesystem\\services\\interfacealertnotifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34639860-617A-4DC7-95F6-EF2B4FD72090}|GreenHouseSystem\\GreenHouseSystem.csproj|solutionrelative:greenhousesystem\\services\\interfacealertnotifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34639860-617A-4DC7-95F6-EF2B4FD72090}|GreenHouseSystem\\GreenHouseSystem.csproj|c:\\users\\nikita\\source\\repos\\greenhousesystem\\greenhousesystem\\services\\loggeralertnotifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34639860-617A-4DC7-95F6-EF2B4FD72090}|GreenHouseSystem\\GreenHouseSystem.csproj|solutionrelative:greenhousesystem\\services\\loggeralertnotifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{34639860-617A-4DC7-95F6-EF2B4FD72090}|GreenHouseSystem\\GreenHouseSystem.csproj|c:\\users\\nikita\\source\\repos\\greenhousesystem\\greenhousesystem\\ebs\\emergencybreakesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -91,20 +103,8 @@
       "RelativeMoniker": "D:0:0:{34639860-617A-4DC7-95F6-EF2B4FD72090}|GreenHouseSystem\\GreenHouseSystem.csproj|solutionrelative:greenhousesystem\\datainterfaces\\idataprocessingstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34639860-617A-4DC7-95F6-EF2B4FD72090}|GreenHouseSystem\\GreenHouseSystem.csproj|c:\\users\\nikita\\source\\repos\\greenhousesystem\\greenhousesystem\\services\\legacyopcdasimulatorservicestartertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34639860-617A-4DC7-95F6-EF2B4FD72090}|GreenHouseSystem\\GreenHouseSystem.csproj|solutionrelative:greenhousesystem\\services\\legacyopcdasimulatorservicestartertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34639860-617A-4DC7-95F6-EF2B4FD72090}|GreenHouseSystem\\GreenHouseSystem.csproj|c:\\users\\nikita\\source\\repos\\greenhousesystem\\greenhousesystem\\services\\legacyopcdasimulatorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34639860-617A-4DC7-95F6-EF2B4FD72090}|GreenHouseSystem\\GreenHouseSystem.csproj|solutionrelative:greenhousesystem\\services\\legacyopcdasimulatorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{34639860-617A-4DC7-95F6-EF2B4FD72090}|GreenHouseSystem\\GreenHouseSystem.csproj|c:\\users\\nikita\\source\\repos\\greenhousesystem\\greenhousesystem\\greenhousesystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{34639860-617A-4DC7-95F6-EF2B4FD72090}|GreenHouseSystem\\GreenHouseSystem.csproj|solutionrelative:greenhousesystem\\greenhousesystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34639860-617A-4DC7-95F6-EF2B4FD72090}|GreenHouseSystem\\GreenHouseSystem.csproj|c:\\users\\nikita\\source\\repos\\greenhousesystem\\greenhousesystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{34639860-617A-4DC7-95F6-EF2B4FD72090}|GreenHouseSystem\\GreenHouseSystem.csproj|solutionrelative:greenhousesystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{34639860-617A-4DC7-95F6-EF2B4FD72090}|GreenHouseSystem\\GreenHouseSystem.csproj|c:\\users\\nikita\\source\\repos\\greenhousesystem\\greenhousesystem\\sensors\\temperaturesensor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -118,7 +118,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -126,124 +126,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "DemoScenarioService.cs",
               "DocumentMoniker": "C:\\Users\\nikita\\source\\repos\\GreenHouseSystem\\GreenHouseSystem\\Services\\DemoScenarioService.cs",
               "RelativeDocumentMoniker": "GreenHouseSystem\\Services\\DemoScenarioService.cs",
               "ToolTip": "C:\\Users\\nikita\\source\\repos\\GreenHouseSystem\\GreenHouseSystem\\Services\\DemoScenarioService.cs",
               "RelativeToolTip": "GreenHouseSystem\\Services\\DemoScenarioService.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAowBEAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwDAAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-11T15:13:18.944Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ConsoleInterfaceService.cs",
-              "DocumentMoniker": "C:\\Users\\nikita\\source\\repos\\GreenHouseSystem\\GreenHouseSystem\\Services\\ConsoleInterfaceService.cs",
-              "RelativeDocumentMoniker": "GreenHouseSystem\\Services\\ConsoleInterfaceService.cs",
-              "ToolTip": "C:\\Users\\nikita\\source\\repos\\GreenHouseSystem\\GreenHouseSystem\\Services\\ConsoleInterfaceService.cs",
-              "RelativeToolTip": "GreenHouseSystem\\Services\\ConsoleInterfaceService.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAoAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-11T15:05:15.566Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MainService.cs",
-              "DocumentMoniker": "C:\\Users\\nikita\\source\\repos\\GreenHouseSystem\\GreenHouseSystem\\Services\\MainService.cs",
-              "RelativeDocumentMoniker": "GreenHouseSystem\\Services\\MainService.cs",
-              "ToolTip": "C:\\Users\\nikita\\source\\repos\\GreenHouseSystem\\GreenHouseSystem\\Services\\MainService.cs",
-              "RelativeToolTip": "GreenHouseSystem\\Services\\MainService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-11T14:59:12.725Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Main.cs",
-              "DocumentMoniker": "C:\\Users\\nikita\\source\\repos\\GreenHouseSystem\\GreenHouseSystem\\Main.cs",
-              "RelativeDocumentMoniker": "GreenHouseSystem\\Main.cs",
-              "ToolTip": "C:\\Users\\nikita\\source\\repos\\GreenHouseSystem\\GreenHouseSystem\\Main.cs*",
-              "RelativeToolTip": "GreenHouseSystem\\Main.cs*",
-              "ViewState": "AgIAADoAAAAAAAAAAAAgwDcAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-20T10:17:02.16Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "MonitoringSettings.cs",
-              "DocumentMoniker": "C:\\Users\\nikita\\source\\repos\\GreenHouseSystem\\GreenHouseSystem\\Services\\settings_class\\MonitoringSettings.cs",
-              "RelativeDocumentMoniker": "GreenHouseSystem\\Services\\settings_class\\MonitoringSettings.cs",
-              "ToolTip": "C:\\Users\\nikita\\source\\repos\\GreenHouseSystem\\GreenHouseSystem\\Services\\settings_class\\MonitoringSettings.cs",
-              "RelativeToolTip": "GreenHouseSystem\\Services\\settings_class\\MonitoringSettings.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-06T17:46:08.493Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "OpcUaSettings.cs",
-              "DocumentMoniker": "C:\\Users\\nikita\\source\\repos\\GreenHouseSystem\\GreenHouseSystem\\Services\\settings_class\\OpcUaSettings.cs",
-              "RelativeDocumentMoniker": "GreenHouseSystem\\Services\\settings_class\\OpcUaSettings.cs",
-              "ToolTip": "C:\\Users\\nikita\\source\\repos\\GreenHouseSystem\\GreenHouseSystem\\Services\\settings_class\\OpcUaSettings.cs",
-              "RelativeToolTip": "GreenHouseSystem\\Services\\settings_class\\OpcUaSettings.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-06T15:47:51.665Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ThresholdCheckStrategy.cs",
-              "DocumentMoniker": "C:\\Users\\nikita\\source\\repos\\GreenHouseSystem\\GreenHouseSystem\\Services\\ThresholdCheckStrategy.cs",
-              "RelativeDocumentMoniker": "GreenHouseSystem\\Services\\ThresholdCheckStrategy.cs",
-              "ToolTip": "C:\\Users\\nikita\\source\\repos\\GreenHouseSystem\\GreenHouseSystem\\Services\\ThresholdCheckStrategy.cs",
-              "RelativeToolTip": "GreenHouseSystem\\Services\\ThresholdCheckStrategy.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-06T17:15:04.332Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "SuddenJumpDetectionStrategy.cs",
-              "DocumentMoniker": "C:\\Users\\nikita\\source\\repos\\GreenHouseSystem\\GreenHouseSystem\\Services\\SuddenJumpDetectionStrategy.cs",
-              "RelativeDocumentMoniker": "GreenHouseSystem\\Services\\SuddenJumpDetectionStrategy.cs",
-              "ToolTip": "C:\\Users\\nikita\\source\\repos\\GreenHouseSystem\\GreenHouseSystem\\Services\\SuddenJumpDetectionStrategy.cs",
-              "RelativeToolTip": "GreenHouseSystem\\Services\\SuddenJumpDetectionStrategy.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAowCYAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-06T17:35:10.618Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "OpcUaDataProvider.cs",
-              "DocumentMoniker": "C:\\Users\\nikita\\source\\repos\\GreenHouseSystem\\GreenHouseSystem\\Services\\OpcUaDataProvider.cs",
-              "RelativeDocumentMoniker": "GreenHouseSystem\\Services\\OpcUaDataProvider.cs",
-              "ToolTip": "C:\\Users\\nikita\\source\\repos\\GreenHouseSystem\\GreenHouseSystem\\Services\\OpcUaDataProvider.cs",
-              "RelativeToolTip": "GreenHouseSystem\\Services\\OpcUaDataProvider.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAABhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-05T16:41:27.994Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "DataProcessor.cs",
               "DocumentMoniker": "C:\\Users\\nikita\\source\\repos\\GreenHouseSystem\\GreenHouseSystem\\Services\\DataProcessor.cs",
               "RelativeDocumentMoniker": "GreenHouseSystem\\Services\\DataProcessor.cs",
@@ -256,7 +152,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
+              "Title": "ConsoleInterfaceService.cs",
+              "DocumentMoniker": "C:\\Users\\nikita\\source\\repos\\GreenHouseSystem\\GreenHouseSystem\\Services\\ConsoleInterfaceService.cs",
+              "RelativeDocumentMoniker": "GreenHouseSystem\\Services\\ConsoleInterfaceService.cs",
+              "ToolTip": "C:\\Users\\nikita\\source\\repos\\GreenHouseSystem\\GreenHouseSystem\\Services\\ConsoleInterfaceService.cs",
+              "RelativeToolTip": "GreenHouseSystem\\Services\\ConsoleInterfaceService.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAIwAoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-11T15:05:15.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "AlertManager.cs",
               "DocumentMoniker": "C:\\Users\\nikita\\source\\repos\\GreenHouseSystem\\GreenHouseSystem\\Services\\AlertManager.cs",
               "RelativeDocumentMoniker": "GreenHouseSystem\\Services\\AlertManager.cs",
@@ -269,20 +178,72 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "MonitoringServices.cs",
-              "DocumentMoniker": "C:\\Users\\nikita\\source\\repos\\GreenHouseSystem\\GreenHouseSystem\\Services\\MonitoringServices.cs",
-              "RelativeDocumentMoniker": "GreenHouseSystem\\Services\\MonitoringServices.cs",
-              "ToolTip": "C:\\Users\\nikita\\source\\repos\\GreenHouseSystem\\GreenHouseSystem\\Services\\MonitoringServices.cs",
-              "RelativeToolTip": "GreenHouseSystem\\Services\\MonitoringServices.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAC4AAABCAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "OpcUaSettings.cs",
+              "DocumentMoniker": "C:\\Users\\nikita\\source\\repos\\GreenHouseSystem\\GreenHouseSystem\\Services\\settings_class\\OpcUaSettings.cs",
+              "RelativeDocumentMoniker": "GreenHouseSystem\\Services\\settings_class\\OpcUaSettings.cs",
+              "ToolTip": "C:\\Users\\nikita\\source\\repos\\GreenHouseSystem\\GreenHouseSystem\\Services\\settings_class\\OpcUaSettings.cs",
+              "RelativeToolTip": "GreenHouseSystem\\Services\\settings_class\\OpcUaSettings.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAUAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-06T17:42:44.89Z",
+              "WhenOpened": "2025-10-06T15:47:51.665Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 5,
+              "Title": "ThresholdCheckStrategy.cs",
+              "DocumentMoniker": "C:\\Users\\nikita\\source\\repos\\GreenHouseSystem\\GreenHouseSystem\\Services\\ThresholdCheckStrategy.cs",
+              "RelativeDocumentMoniker": "GreenHouseSystem\\Services\\ThresholdCheckStrategy.cs",
+              "ToolTip": "C:\\Users\\nikita\\source\\repos\\GreenHouseSystem\\GreenHouseSystem\\Services\\ThresholdCheckStrategy.cs",
+              "RelativeToolTip": "GreenHouseSystem\\Services\\ThresholdCheckStrategy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T17:15:04.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Main.cs",
+              "DocumentMoniker": "C:\\Users\\nikita\\source\\repos\\GreenHouseSystem\\GreenHouseSystem\\Main.cs",
+              "RelativeDocumentMoniker": "GreenHouseSystem\\Main.cs",
+              "ToolTip": "C:\\Users\\nikita\\source\\repos\\GreenHouseSystem\\GreenHouseSystem\\Main.cs",
+              "RelativeToolTip": "GreenHouseSystem\\Main.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAABlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T10:17:02.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\nikita\\source\\repos\\GreenHouseSystem\\GreenHouseSystem\\appsettings.json",
+              "RelativeDocumentMoniker": "GreenHouseSystem\\appsettings.json",
+              "ToolTip": "C:\\Users\\nikita\\source\\repos\\GreenHouseSystem\\GreenHouseSystem\\appsettings.json",
+              "RelativeToolTip": "GreenHouseSystem\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-05T16:18:05.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OpcUaDataProvider.cs",
+              "DocumentMoniker": "C:\\Users\\nikita\\source\\repos\\GreenHouseSystem\\GreenHouseSystem\\Services\\OpcUaDataProvider.cs",
+              "RelativeDocumentMoniker": "GreenHouseSystem\\Services\\OpcUaDataProvider.cs",
+              "ToolTip": "C:\\Users\\nikita\\source\\repos\\GreenHouseSystem\\GreenHouseSystem\\Services\\OpcUaDataProvider.cs",
+              "RelativeToolTip": "GreenHouseSystem\\Services\\OpcUaDataProvider.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAowCkAAAByAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-05T16:41:27.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "InterfaceAlertNotifier.cs",
               "DocumentMoniker": "C:\\Users\\nikita\\source\\repos\\GreenHouseSystem\\GreenHouseSystem\\Services\\InterfaceAlertNotifier.cs",
               "RelativeDocumentMoniker": "GreenHouseSystem\\Services\\InterfaceAlertNotifier.cs",
@@ -295,7 +256,97 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LegacyOpcDaSimulatorService.cs",
+              "DocumentMoniker": "C:\\Users\\nikita\\source\\repos\\GreenHouseSystem\\GreenHouseSystem\\Services\\LegacyOpcDaSimulatorService.cs",
+              "RelativeDocumentMoniker": "GreenHouseSystem\\Services\\LegacyOpcDaSimulatorService.cs",
+              "ToolTip": "C:\\Users\\nikita\\source\\repos\\GreenHouseSystem\\GreenHouseSystem\\Services\\LegacyOpcDaSimulatorService.cs",
+              "RelativeToolTip": "GreenHouseSystem\\Services\\LegacyOpcDaSimulatorService.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA1wBkAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T17:02:50.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LegacyOpcDaSimulatorServiceStarterTest.cs",
+              "DocumentMoniker": "C:\\Users\\nikita\\source\\repos\\GreenHouseSystem\\GreenHouseSystem\\Services\\LegacyOpcDaSimulatorServiceStarterTest.cs",
+              "RelativeDocumentMoniker": "GreenHouseSystem\\Services\\LegacyOpcDaSimulatorServiceStarterTest.cs",
+              "ToolTip": "C:\\Users\\nikita\\source\\repos\\GreenHouseSystem\\GreenHouseSystem\\Services\\LegacyOpcDaSimulatorServiceStarterTest.cs",
+              "RelativeToolTip": "GreenHouseSystem\\Services\\LegacyOpcDaSimulatorServiceStarterTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T18:52:19.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LoggerAlertNotifier.cs",
+              "DocumentMoniker": "C:\\Users\\nikita\\source\\repos\\GreenHouseSystem\\GreenHouseSystem\\Services\\LoggerAlertNotifier.cs",
+              "RelativeDocumentMoniker": "GreenHouseSystem\\Services\\LoggerAlertNotifier.cs",
+              "ToolTip": "C:\\Users\\nikita\\source\\repos\\GreenHouseSystem\\GreenHouseSystem\\Services\\LoggerAlertNotifier.cs",
+              "RelativeToolTip": "GreenHouseSystem\\Services\\LoggerAlertNotifier.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-11T14:29:06.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MainService.cs",
+              "DocumentMoniker": "C:\\Users\\nikita\\source\\repos\\GreenHouseSystem\\GreenHouseSystem\\Services\\MainService.cs",
+              "RelativeDocumentMoniker": "GreenHouseSystem\\Services\\MainService.cs",
+              "ToolTip": "C:\\Users\\nikita\\source\\repos\\GreenHouseSystem\\GreenHouseSystem\\Services\\MainService.cs",
+              "RelativeToolTip": "GreenHouseSystem\\Services\\MainService.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowDwAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-11T14:59:12.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 14,
+              "Title": "MonitoringServices.cs",
+              "DocumentMoniker": "C:\\Users\\nikita\\source\\repos\\GreenHouseSystem\\GreenHouseSystem\\Services\\MonitoringServices.cs",
+              "RelativeDocumentMoniker": "GreenHouseSystem\\Services\\MonitoringServices.cs",
+              "ToolTip": "C:\\Users\\nikita\\source\\repos\\GreenHouseSystem\\GreenHouseSystem\\Services\\MonitoringServices.cs",
+              "RelativeToolTip": "GreenHouseSystem\\Services\\MonitoringServices.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAowC4AAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T17:42:44.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SuddenJumpDetectionStrategy.cs",
+              "DocumentMoniker": "C:\\Users\\nikita\\source\\repos\\GreenHouseSystem\\GreenHouseSystem\\Services\\SuddenJumpDetectionStrategy.cs",
+              "RelativeDocumentMoniker": "GreenHouseSystem\\Services\\SuddenJumpDetectionStrategy.cs",
+              "ToolTip": "C:\\Users\\nikita\\source\\repos\\GreenHouseSystem\\GreenHouseSystem\\Services\\SuddenJumpDetectionStrategy.cs",
+              "RelativeToolTip": "GreenHouseSystem\\Services\\SuddenJumpDetectionStrategy.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowCYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T17:35:10.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MonitoringSettings.cs",
+              "DocumentMoniker": "C:\\Users\\nikita\\source\\repos\\GreenHouseSystem\\GreenHouseSystem\\Services\\settings_class\\MonitoringSettings.cs",
+              "RelativeDocumentMoniker": "GreenHouseSystem\\Services\\settings_class\\MonitoringSettings.cs",
+              "ToolTip": "C:\\Users\\nikita\\source\\repos\\GreenHouseSystem\\GreenHouseSystem\\Services\\settings_class\\MonitoringSettings.cs",
+              "RelativeToolTip": "GreenHouseSystem\\Services\\settings_class\\MonitoringSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T17:46:08.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "EmergencyBreakeSystem.cs",
               "DocumentMoniker": "C:\\Users\\nikita\\source\\repos\\GreenHouseSystem\\GreenHouseSystem\\EBS\\EmergencyBreakeSystem.cs",
               "RelativeDocumentMoniker": "GreenHouseSystem\\EBS\\EmergencyBreakeSystem.cs",
@@ -307,7 +358,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "IAlertNotifier.cs",
               "DocumentMoniker": "C:\\Users\\nikita\\source\\repos\\GreenHouseSystem\\GreenHouseSystem\\Alerts\\IAlertNotifier.cs",
               "RelativeDocumentMoniker": "GreenHouseSystem\\Alerts\\IAlertNotifier.cs",
@@ -319,7 +370,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "HumiditySensor.cs",
               "DocumentMoniker": "C:\\Users\\nikita\\source\\repos\\GreenHouseSystem\\GreenHouseSystem\\Sensors\\HumiditySensor.cs",
               "RelativeDocumentMoniker": "GreenHouseSystem\\Sensors\\HumiditySensor.cs",
@@ -331,7 +382,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "SoilQualitySensor.cs",
               "DocumentMoniker": "C:\\Users\\nikita\\source\\repos\\GreenHouseSystem\\GreenHouseSystem\\Sensors\\SoilQualitySensor.cs",
               "RelativeDocumentMoniker": "GreenHouseSystem\\Sensors\\SoilQualitySensor.cs",
@@ -343,7 +394,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "Sensors.cs",
               "DocumentMoniker": "C:\\Users\\nikita\\source\\repos\\GreenHouseSystem\\GreenHouseSystem\\Sensors\\Sensors.cs",
               "RelativeDocumentMoniker": "GreenHouseSystem\\Sensors\\Sensors.cs",
@@ -355,7 +406,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "SensorFabric.cs",
               "DocumentMoniker": "C:\\Users\\nikita\\source\\repos\\GreenHouseSystem\\GreenHouseSystem\\Sensors\\SensorFabric.cs",
               "RelativeDocumentMoniker": "GreenHouseSystem\\Sensors\\SensorFabric.cs",
@@ -367,7 +418,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "IDataProvider.cs",
               "DocumentMoniker": "C:\\Users\\nikita\\source\\repos\\GreenHouseSystem\\GreenHouseSystem\\DataInterfaces\\IDataProvider.cs",
               "RelativeDocumentMoniker": "GreenHouseSystem\\DataInterfaces\\IDataProvider.cs",
@@ -379,19 +430,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "LoggerAlertNotifier.cs",
-              "DocumentMoniker": "C:\\Users\\nikita\\source\\repos\\GreenHouseSystem\\GreenHouseSystem\\Services\\LoggerAlertNotifier.cs",
-              "RelativeDocumentMoniker": "GreenHouseSystem\\Services\\LoggerAlertNotifier.cs",
-              "ToolTip": "C:\\Users\\nikita\\source\\repos\\GreenHouseSystem\\GreenHouseSystem\\Services\\LoggerAlertNotifier.cs",
-              "RelativeToolTip": "GreenHouseSystem\\Services\\LoggerAlertNotifier.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-11T14:29:06.612Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 24,
               "Title": "IDataProcessingStrategy.cs",
               "DocumentMoniker": "C:\\Users\\nikita\\source\\repos\\GreenHouseSystem\\GreenHouseSystem\\DataInterfaces\\IDataProcessingStrategy.cs",
               "RelativeDocumentMoniker": "GreenHouseSystem\\DataInterfaces\\IDataProcessingStrategy.cs",
@@ -403,31 +442,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "LegacyOpcDaSimulatorServiceStarterTest.cs",
-              "DocumentMoniker": "C:\\Users\\nikita\\source\\repos\\GreenHouseSystem\\GreenHouseSystem\\Services\\LegacyOpcDaSimulatorServiceStarterTest.cs",
-              "RelativeDocumentMoniker": "GreenHouseSystem\\Services\\LegacyOpcDaSimulatorServiceStarterTest.cs",
-              "ToolTip": "C:\\Users\\nikita\\source\\repos\\GreenHouseSystem\\GreenHouseSystem\\Services\\LegacyOpcDaSimulatorServiceStarterTest.cs",
-              "RelativeToolTip": "GreenHouseSystem\\Services\\LegacyOpcDaSimulatorServiceStarterTest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-06T18:52:19.652Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "LegacyOpcDaSimulatorService.cs",
-              "DocumentMoniker": "C:\\Users\\nikita\\source\\repos\\GreenHouseSystem\\GreenHouseSystem\\Services\\LegacyOpcDaSimulatorService.cs",
-              "RelativeDocumentMoniker": "GreenHouseSystem\\Services\\LegacyOpcDaSimulatorService.cs",
-              "ToolTip": "C:\\Users\\nikita\\source\\repos\\GreenHouseSystem\\GreenHouseSystem\\Services\\LegacyOpcDaSimulatorService.cs",
-              "RelativeToolTip": "GreenHouseSystem\\Services\\LegacyOpcDaSimulatorService.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwBkAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-06T17:02:50.953Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "GreenHouseSystem.csproj",
               "DocumentMoniker": "C:\\Users\\nikita\\source\\repos\\GreenHouseSystem\\GreenHouseSystem\\GreenHouseSystem.csproj",
               "RelativeDocumentMoniker": "GreenHouseSystem\\GreenHouseSystem.csproj",
@@ -436,18 +451,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-10-05T17:02:00.063Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\nikita\\source\\repos\\GreenHouseSystem\\GreenHouseSystem\\appsettings.json",
-              "RelativeDocumentMoniker": "GreenHouseSystem\\appsettings.json",
-              "ToolTip": "C:\\Users\\nikita\\source\\repos\\GreenHouseSystem\\GreenHouseSystem\\appsettings.json",
-              "RelativeToolTip": "GreenHouseSystem\\appsettings.json",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAIAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-10-05T16:18:05.3Z"
             },
             {
               "$type": "Document",

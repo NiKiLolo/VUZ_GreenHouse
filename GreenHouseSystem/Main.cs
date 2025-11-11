@@ -28,9 +28,9 @@ namespace GreenHouseSystem
             builder.Services.Configure<MonitoringSettings>(builder.Configuration);
             // 4. РЕГИСТРИРУЕМ НАШИ ИСТОЧНИКИ ДАННЫХ
             // Если нужно использовать OPC UA - раскомментируйте следующуюстроку:
-            //builder.Services.AddTransient<IDataProvider, OpcUaDataProvider>();
+            builder.Services.AddTransient<IDataProvider, OpcUaDataProvider>();
             // Если нужно использовать симулятор OPC DA - раскомментируйте следующую строку:
-            builder.Services.AddTransient<IDataProvider, LegacyOpcDaSimulatorService>();
+            //builder.Services.AddTransient<IDataProvider, LegacyOpcDaSimulatorService>();
             builder.Services.AddTransient<ThresholdCheckStrategy>();
             builder.Services.AddTransient<SuddenJumpDetectionStrategy>();
 

@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Workstation.ServiceModel.Ua;
 using Workstation.ServiceModel.Ua.Channels;
-
+using System.Reactive.Linq;
 
 namespace GreenHouseSystem.Services
 {
@@ -22,6 +22,7 @@ namespace GreenHouseSystem.Services
         {
             _logger = logger;
             _settings = settings.Value; // Достаём сами настройки из контейнера
+            _logger.LogInformation($"settings.Value:{settings.Value.nodeId}");
             _logger.LogInformation($"OPC UA провайдер создан для сервера:{_settings.serverUrl}");
         }
         public async Task<double> ReadValueAsync()
@@ -32,14 +33,15 @@ namespace GreenHouseSystem.Services
                 var applicationDescription = new ApplicationDescription
                 {
                     ApplicationName = "AdaptiveControlSystem Client",
-                    ApplicationUri = "urn:localhost:AdaptiveControlSystem",
+                    ApplicationUri = "urn:DESKTOP-9KRMEGG:OPCUA:SimulationServer",
                     ApplicationType = ApplicationType.Client
                 };
                 // 2. Создаём и запускаем подключение к серверу
 
+                var certificateStore = new DirectoryStore(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "Workstation", "pki"));
                 var channel = new ClientSessionChannel( // в файле Павловича -  UaTcpSessionChannel, по результатом поиска сейчас используется ClientSessionChannel
                 applicationDescription,
-                null, // Без сертификата
+                certificateStore, // Без сертификата
                 new AnonymousIdentity(), // Анонимный вход
                 _settings.serverUrl);
                 try
@@ -48,8 +50,9 @@ namespace GreenHouseSystem.Services
                     // 3. Читаем значение с конкретного "датчика" (NodeId)
                     var readRequest = new ReadRequest
                     {
-                        NodesToRead = new[] { new ReadValueId { NodeId = _settings.nodeId, AttributeId = AttributeIds.Value } }
+                        NodesToRead = new[] { new ReadValueId { NodeId = NodeId.Parse(_settings.nodeId), AttributeId = AttributeIds.Value } } //_settings.nodeId
                     };
+
                     var readResponse = await channel.ReadAsync(readRequest);
                     // 4. Если ответ успешный, возвращаем значение
                     if (readResponse.Results[0].StatusCode == Workstation.ServiceModel.Ua.StatusCodes.Good)
@@ -61,19 +64,19 @@ namespace GreenHouseSystem.Services
                     else
                     {
                         _logger.LogError("Ошибка чтения из OPC UA. Статус: { StatusCode}", readResponse.Results[0].StatusCode);
-                         return double.NaN; // Возвращаем специальное значение "Нечисло" (Not a Number) для обозначения ошибки
+                        return double.NaN; // Возвращаем специальное значение "Нечисло" (Not a Number) для обозначения ошибки
                     }
                 }
                 catch (Exception ex)
                 {
                     await channel.AbortAsync();
-                    _logger.LogError(ex, "Ошибка подключения или чтения из OPC UA  сервера { ServerUrl}", _settings.serverUrl);
+                    _logger.LogError(ex, "ClientSessionChannel | Ошибка подключения или чтения из OPC UA  сервера { ServerUrl}", _settings.serverUrl);
                     return double.NaN;
                 }
             }
             catch (System.Exception ex)
             {
-                _logger.LogError(ex, "Ошибка подключения или чтения из OPC UA  сервера {ServerUrl}", _settings.serverUrl);
+                _logger.LogError(ex, "ReadValueAsync | Ошибка подключения или чтения из OPC UA  сервера {ServerUrl}", _settings.serverUrl);
                 return double.NaN;
             }
         }
